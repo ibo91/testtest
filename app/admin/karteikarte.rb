@@ -1,4 +1,5 @@
 ActiveAdmin.register Karteikarte do
+  permit_params :frage, :beschreibung
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
